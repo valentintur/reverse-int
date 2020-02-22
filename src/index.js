@@ -1,4 +1,3 @@
 module.exports = function reverse (n) {
-  n = n.toString().split('').reverse().join('');
-  return parseInt(n);
+  return parseInt(n.toString().split('').reverse().join(''));
 }
